@@ -8,6 +8,7 @@
     <center>
          <form action="<?= base_url('matakuliah/cetak'); ?>"
 method="post">
+<?php echo validation_erors() ?>
             <table>
                 <tr>
                     <th colspan="3">
